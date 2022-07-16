@@ -1,0 +1,46 @@
+body, html {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fafafa !important;
+}
+
+.lang-button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #009a49;
+	color: inherit;
+	border: none;
+	outline: inherit;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  width: min(700px, 100%);
+}
+
+.App-logo {
+  @media (prefers-reduced-motion: no-preference) {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}

@@ -1,0 +1,47 @@
+:root {
+    --surface-card: white
+}
+
+.MenuEntry {
+    width: min(96%, 600px);
+    min-height: min(36vw, 200px);
+    border-radius: 10px !important;
+    background-color: white;
+    text-align: start;
+
+    .title {
+        font-weight: bold;
+        font-size: 1.20rem;
+    }
+
+    .description {
+        font-style: italic;
+        font-size: 0.75rem;
+    }
+
+    &.no-image {
+        min-height: min(24vw, 100px) !important;
+    }
+}
+
+.MenuEntry.no-photo {
+    min-height: min(18vw, 100px) !important;
+}
+
+.price-label {
+    font-size: 0.8rem;
+    border-radius: 5px;
+    background-color: #B5FE83;
+    margin: 4px;
+    padding: 4px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item-photo {
+    width: min(32vw, 180px);
+    height: min(32vw, 180px);
+    background-color: black;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px
+}
